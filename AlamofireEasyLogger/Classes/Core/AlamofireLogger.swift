@@ -13,6 +13,7 @@ public class AlamofireLogger {
     
     public weak var delegate: AlamofireLoggerDelegate?
     
+    public init() {}
     public func startLogging() {
         let notificationCenter = NotificationCenter.default
         
